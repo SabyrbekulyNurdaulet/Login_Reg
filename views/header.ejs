@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>praktika</title>
+    <link rel="stylesheet" href="./css/headerStyle.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="/public/css/Twitch-Logo-PNG-Free-Image.png" alt="Logo">
+     
+    </div>
+    <nav>
+        <a href="/">Main</a>
+        <% if (session.isAuthenticated) { %>
+            <a href="/logout">Выйти</a>
+        <% } else { %>
+            <a href="/login">Авторизоваться</a>
+            <a href="/register">регистрация</a>
+        <% } %>
+        <a href="/dashboard">Dashboard</a>
+    </nav>
+</body>
+</html>

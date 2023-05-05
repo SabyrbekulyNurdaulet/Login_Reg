@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+  body {
+	background-image: url(856745.jpg);
+  }
+  header {
+	background-color: #6441a5;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 16px 24px;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+  }
+  
+  #signin {
+	background-color: #fff;
+	border-radius: 4px;
+	width: 300px;
+	margin: 50px auto;
+	padding: 20px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+  }
+  
+
+  
+  #signin input[type="email"],
+  #signin input[type="password"] {
+	display: block;
+	width: 100%;
+	border: none;
+	border-radius: 2px;
+	padding: 12px 6px;
+	margin-bottom: 16px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #5d5d5d;
+	background-color: #f2f2f2;
+  }
+  
+  #signin button[type="submit"] {
+	display: block;
+	width: 100%;
+	border: none;
+	border-radius: 2px;
+	padding: 12px 20px;
+	margin-top: 16px;
+	font-size: 16px;
+	font-weight: 500;
+	background-color: #6441a4;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+  }
+  
+  #signin button[type="submit"]:hover {
+	background-color: #472d6c;
+  }
+  
+  #signin p {
+	margin-top: 16px;
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+  }
+  
+  #signin p a {
+	color: #6441a4;
+	text-decoration: none;
+  }
+  
+  #signin p a:hover {
+	border-bottom: 1px solid #6441a4;
+  }
+  
+  #signin .icon {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 8px;
+  }
+  
+  #signin .icon-eye {
+	font-size: 16px;
+	color: #5d5d5d;
+  }
+  
